@@ -3,7 +3,7 @@
 
 Please view 'ETL_Task_Description.docx' in the repository for specific details of the task.
 
-The 'Angelo_ETL_Task.py' Python script extracts the target files from the via HTTP requests, transforms the extracted data, and loads it into a PostgreSQL database, according to the format specified in https://www.i2b2.org/software/files/PDF/current/Ontology_Design.pdf.
+The 'Angelo_ETL_Task.py' Python script extracts 2 csv files from loinc.org via HTTP requests, transforms the extracted data, and loads it into a PostgreSQL database, according to the format specified in https://www.i2b2.org/software/files/PDF/current/Ontology_Design.pdf.
 
 The script outputs a CSV file with the rows inserted into the Postgres database.
 
